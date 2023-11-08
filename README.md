@@ -328,7 +328,7 @@ Group by nationality
 | Multiple Table Join   |         |         |         |         |         |   X     |         |         |   X     |          |
 | Traditional Subquery  |         |         |         |         |   X     |         |         |         |         |          |
 | Correlated Subquery   |         |         |         |         |         |         |         |         |         |          |
-| Group By              |         |         |         |         |         |         |         |   X     |         |          |
+| Group By              |         |         |         |         |         |         |         |   X     |         |    X      |
 | Group By Having       |   X     |         |         |         |         |         |         |         |         |          |
 | Multi Condition Where |         |         |   X     |   X     |         |   X     |         |         |   X     |          |
 | Built-In Function     |   X     |         |         |         |   X     |         |         |   X     |         |      X    |
