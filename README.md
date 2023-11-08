@@ -40,7 +40,7 @@ Managing the club's finances is crucial. This includes revenue from ticket sales
 The database project will be crucial for us to manage these aspects effectively. The MIST 4610 class from the University of Georgia will play a critical role in designing a relational database that can efficiently store and retrieve information related to our club's various entities, attributes, and relationships. We need a database that ensures data accuracy, security, and accessibility for different club stakeholders, including management, coaches, players, and fans.
 
 ## Data Model
- ![datamodel](https://github.com/brettserwin/MIS4610Project1/assets/148248136/02534470-0946-49cd-a0b6-90cffde3ad6d)
+<img width="436" alt="Screenshot 2023-11-07 at 9 20 41 PM" src="https://github.com/brettserwin/MIS4610Project1/assets/148248136/68da4f45-4f1f-43c4-8a61-179252d4862f">
 
 
 ## Data Dictionary 
