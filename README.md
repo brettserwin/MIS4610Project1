@@ -4,8 +4,7 @@ Brett Serwin, Dylan Vila, Jonathan Gilbertson, Robert Delorme, Ryan Burstiner
 
 
 ## Problem Description
-As the owner and operator of a soccer club, my business is centered around the management and operation of a professional soccer team. Our club competes in a prominent soccer league and participates in various competitions at the national and international levels. We aim to be a successful and well-recognized soccer club, both on and off the field. Here is an overview of our organization:
-Teams 
+As the owner and operator of a soccer club, my business is centered around the management and operation of a professional soccer team. Our club competes in a prominent soccer league and participates in various competitions at the national and international levels. We aim to be a successful and well-recognized soccer club, both on and off the field. Here is an overview of our organization: 
 We have multiple teams, including senior, reserve, and youth teams.
 Each team has a roster of players with details such as name, age, nationality, position, and jersey number.
 Players can move between teams, and transfers or loan deals may occur
