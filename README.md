@@ -41,7 +41,7 @@ The database project will be crucial for us to manage these aspects effectively.
 
 
 ## Data Model
-<img width="436" alt="Screenshot 2023-11-07 at 9 20 41 PM" src="https://github.com/brettserwin/MIS4610Project1/assets/148248136/70247ff6-811e-499d-879a-c92b9fad317a">
+<img width="434" alt="Screenshot 2023-11-07 at 9 42 46 PM" src="https://github.com/brettserwin/MIS4610Project1/assets/148248136/6b4f2fde-d635-4812-9ee6-71ce43953ee3">
 
 
 ## Data Dictionary 
