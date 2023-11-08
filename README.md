@@ -292,6 +292,9 @@ And position IN ("Goalkeeper")
 
 Query 10: Find the number of players grouped by nationality who salaries are above the average salaries of players 
 
+Justification:
+Management was curious to see what players from which countries are being paid the most, as a way to scout and identify talent.
+
 Execute:
 > Select nationality, COUNT(*) as Number_Of_Players from Players 
 Group by nationality
