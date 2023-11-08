@@ -1,6 +1,6 @@
-# MIS4610Project1
+# Group Project 1
 
-Dylan Vila, Jonathan Gilbertson, Robert Delorme, Ryan Burstiner, Brett Serwin
+Brett Serwin, Dylan Vila, Jonathan Gilbertson, Robert Delorme, Ryan Burstiner
 
 
 ## Problem Description
@@ -39,8 +39,9 @@ Managing the club's finances is crucial. This includes revenue from ticket sales
 
 The database project will be crucial for us to manage these aspects effectively. The MIST 4610 class from the University of Georgia will play a critical role in designing a relational database that can efficiently store and retrieve information related to our club's various entities, attributes, and relationships. We need a database that ensures data accuracy, security, and accessibility for different club stakeholders, including management, coaches, players, and fans.
 
+
 ## Data Model
-<img width="436" alt="Screenshot 2023-11-07 at 9 20 41 PM" src="https://github.com/brettserwin/MIS4610Project1/assets/148248136/68da4f45-4f1f-43c4-8a61-179252d4862f">
+<img width="436" alt="Screenshot 2023-11-07 at 9 20 41 PM" src="https://github.com/brettserwin/MIS4610Project1/assets/148248136/70247ff6-811e-499d-879a-c92b9fad317a">
 
 
 ## Data Dictionary 
@@ -174,26 +175,27 @@ And injuryType IN ("Knee")
 + -------------- + ------------- +
 2 rows
 
-Query 4: Find the names and teamID’s of team staff members that have a job title of Marketing and have last names that end in ‘n’:
+Query 4: Find the names and teamID’s of team staff members that have a job title of Marketing and have the last name Anderson:
 
-Justification:
+Justification: We have an HR complaint for a person in the marketing department with the last name of Anderson 
 
 Execute:
 > Select staffFname, staffLname, teamID
 From Team_Staff, Teams
 Where Teams.teamID = Team_Staff.Teams_teamID 
 And title IN ("Marketing")
-And staffLname regexp "n$"
+And staffLname regexp "Anderson"
 
 + --------------- + --------------- + ----------- +
 | staffFname      | staffLname      | teamID      |
 + --------------- + --------------- + ----------- +
-| David           | Anderson        | 1           |
-| Jaquelyn        | Williamson      | 1           |
+| David           | Anderson        | 1           |     
 + --------------- + --------------- + ----------- +
-2 rows
+1 row
 
 Query 5: Find the names and salaries of defense coaches whose salaries are greater than the average salaries of the team staff members
+
+Justification: Our Club would like to see if we are valuing our average defense coaches more than the average of all our coaches 
 
 Execute:
 > Select coachFname, coachLname, salary
@@ -229,6 +231,8 @@ And injuryType regexp "Ankle|Foot"
 2 rows
 
 Query 7: Lists all the players in the club that are from Brazil, this is for a simple 
+
+Justification: The Brazilian national team has a series of games coming up and the team sees which players may potentially have to miss club games for international games. 
 
 Execute:
 > Select firstName, lastName, playerID, teamID
@@ -266,6 +270,8 @@ Group by Position
 4 rows
 
 Query 9: Find the result of the games that england players have head injuries that are playing forward 
+
+Justification: There is a new regulation in England on concussions for their athletes so we need to make sure that we are vigilantly keeping up to date about their head injuries 
 
 Execute:
 > Select result, injuryType, nationality, position 
